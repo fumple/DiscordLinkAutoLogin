@@ -1,0 +1,18 @@
+[
+  {
+    "modid": "discordlink-forge12",
+    "name": "DiscordLink Auto Login",
+    "description": "Auto login for mc.fumple.pl",
+    "version": "${version}",
+    "mcversion": "${mcversion}",
+    "url": "https://github.com/fumple/DiscordLinkAutoLogin",
+    "updateUrl": "",
+    "authorList": [
+      "Fumple"
+    ],
+    "credits": "",
+    "logoFile": "",
+    "screenshots": [],
+    "dependencies": []
+  }
+]

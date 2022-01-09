@@ -34,10 +34,10 @@ public class DiscordLink
 
     private static final String PROTOCOL_VERSION = NetworkRegistry.ACCEPTVANILLA;
     public static final SimpleChannel CHANNELINSTANCE = NetworkRegistry.newSimpleChannel(
-        new ResourceLocation("fpldiscordlink", "main"),
-        () -> PROTOCOL_VERSION,
-        PROTOCOL_VERSION::equals,
-        PROTOCOL_VERSION::equals
+            new ResourceLocation("fpldiscordlink", "main"),
+            () -> PROTOCOL_VERSION,
+            PROTOCOL_VERSION::equals,
+            PROTOCOL_VERSION::equals
     );
 
     private static File tokensFile;
